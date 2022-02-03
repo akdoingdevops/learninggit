@@ -9,6 +9,7 @@
 8. git add . #to add all the untracked files to staging area recursively(Recursive means -> all files in working directory also the files inside directory of working directory)
 
 8.1. git add -A  #when ever we are moving a file from one location to other this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
+
 8.2. git add -u  #when ever we are renaming a file from filesystem this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
 
 9. git commit -m "your commit message"
@@ -20,6 +21,7 @@
 10.1. git init <foldername>
 
 10.2  git init #already inside a directory having some data 
+
 11. git ls-files   #this will tell you about all the tracked files. the moment we do "git add" for a file it becomes trackable by git in repo.
 12. git reset HEAD <filename>  #this command will help to move the file back to working directory from staging area
 13. git checkout -- <filename>  #this will completely revert the change whatever we have edit or any file added.
