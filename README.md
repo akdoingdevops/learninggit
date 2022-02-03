@@ -7,4 +7,6 @@
 6. git satus
 7. git add <filename> #to add a specific file in staging area
 8. git add . #to add all the untracked files to staging area recursively(Recursive means -> all files in working directory also the files inside directory of working directory)
-9. 
+9. git init #is a command initialize a raw git repository in with blank directory or directory may contains data already
+9.1. git init <foldername>
+9.2  git init #already inside a directory having some data 
