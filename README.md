@@ -16,3 +16,6 @@
 10.1. git init <foldername>
 
 10.2  git init #already inside a directory having some data 
+11. git ls-files   #this will tell you about all the tracked files. the moment we do "git add" for a file it becomes trackable by git in repo.
+12. git reset HEAD <filename>  #this command will help to move the file back to working directory from staging area
+13. git checkout -- <filename>  #this will completely revert the change whatever we have edit or any file added.
