@@ -24,3 +24,10 @@
 12. git reset HEAD <filename>  #this command will help to move the file back to working directory from staging area
 13. git checkout -- <filename>  #this will completely revert the change whatever we have edit or any file added.
 14. git mv <oldfilename> <newfilename>   #this is used to rename the file in such a way that it get directly into staging area.
+15. git log
+
+15.1. git log --abbrev-commit   #this shortens the SHA identifier version
+
+15.2. git log --oneline --graph --decorate
+
+15.3. git log -- <filename>  #this will provide history for the specific file
