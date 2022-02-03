@@ -8,7 +8,8 @@
 7. git add <filename> #to add a specific file in staging area
 8. git add . #to add all the untracked files to staging area recursively(Recursive means -> all files in working directory also the files inside directory of working directory)
 
-8.1. git add -A  #when ever we are renaming a file from filesystem this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
+8.1. git add -A  #when ever we are moving a file from one location to other this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
+8.2. git add -u  #when ever we are renaming a file from filesystem this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
 
 9. git commit -m "your commit message"
 
