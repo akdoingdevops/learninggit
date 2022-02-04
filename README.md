@@ -8,9 +8,9 @@
 7. git add <filename> #to add a specific file in staging area
 8. git add . #to add all the untracked files to staging area recursively(Recursive means -> all files in working directory also the files inside directory of working directory)
 
-8.1. git add -A  #when ever we are moving a file from one location to other this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
+8.1. git add -A  #when ever we are moving a file from one location to other this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1 below
 
-8.2. git add -u  #when ever we are renaming a file from filesystem this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1
+8.2. git add -u  #when ever we are renaming a file from filesystem this will help in getting file into staged area by updating the status as renamed, refer screenshot 8.1 below
 
 9. git commit -m "your commit message"
 
@@ -45,3 +45,5 @@
 16.4. git diff <any commit id 1> <any commit id 2>  #this will help in analyzing diff between any last two commits in git
 
 16.5. git diff HEAD HEAD^ #this helps in showing diff between latest commit(HEAD) and latest but one(HEAD -1)
+
+16.6. git diff HEAD origin/master OR  git diff master origin/master  #this will help in analyzing difference between local repo changes and remote repo,where master/HEAD commit is latest commit in local repo and origin/master is state of remote repo > refer screenshot 16.6 below
