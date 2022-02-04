@@ -36,6 +36,12 @@
 
 16. git diff
 
-16.1. git diff #to show diff between working dir and last commit in repo on localhost/where repo is cloned
+16.1. git diff #to show diff between working dir and last commit in repo on localhost/where repo is cloned, but this will show all current differences, which will be difficult to analyze all the changes made
 
-16.2. git diff --staged  HEAD <filename> #this is to get diff between content in staged area and last commit, HEAD can be any commit ID/HEAD/origin/master
+16.2. git diff -- <filename>/<path>  #this can help in limiting the diff to a particular path or a set of files
+
+16.3. git diff --staged  HEAD <filename> #this is to get diff between content in staged area and last commit, HEAD can be any commit ID/HEAD/origin/master
+
+16.4. git diff <any commit id 1> <any commit id 2>  #this will help in analyzing diff between any last two commits in git
+
+16.5. git diff HEAD HEAD^ #this helps in showing diff between latest commit(HEAD) and latest but one(HEAD -1)
