@@ -34,5 +34,8 @@
 
 15.3. git log -- <filename>  #this will provide history for the specific file
 
-16. git
-17. git 
+16. git diff
+
+16.1. git diff #to show diff between working dir and last commit in repo on localhost/where repo is cloned
+
+16.2. git diff --staged  HEAD #this is to get diff between content in staged area and last commit, HEAD can be any commit ID/HEAD/origin/master
