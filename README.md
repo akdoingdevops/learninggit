@@ -64,4 +64,10 @@
 
 19.2. git merge <destination branch> <source branch> --no-ff  #merging with --no-ff option disables the fastforward merge and display all the commits done in branch and complete tree in git decorated log
 
+19.3. testing auto merge and resloving conflicts
+
+19.3.1. chnage in master
+
+19.3.2 change in branch learnbranchingmerging
+
 19.3.3 chnages in branch1
