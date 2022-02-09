@@ -63,3 +63,5 @@
 19.1. git merge <destination branch> <source branch> #to merge first switch to the branch where we want to merge, means destination branch, this by default perform the fast forward merge
 
 19.2. git merge <destination branch> <source branch> --no-ff  #merging with --no-ff option disables the fastforward merge and display all the commits done in branch and complete tree in git decorated log
+
+19.3.3 chnages in branch1
