@@ -47,3 +47,13 @@
 16.5. git diff HEAD HEAD^ #this helps in showing diff between latest commit(HEAD) and latest but one(HEAD -1)
 
 16.6. git diff HEAD origin/master OR  git diff master origin/master  #this will help in analyzing difference between local repo changes and remote repo,where master/HEAD commit is latest commit in local repo and origin/master is state of remote repo > refer screenshot 16.6 below
+
+17. git branch  #this will show the branches on local
+
+17.1. git branch -a #this will show th branches on local as well as remote
+
+17.2. git branch <somebranchname> #it will create a branch with the passed name and if branch is existing it will say "fatal: A branch named '<somebranchname>' already exists."
+
+18. git checkout #to checkout the code for that branch
+
+18.1. git checkout -b  
