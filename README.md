@@ -56,4 +56,6 @@
 
 18. git checkout #to checkout the code for that branch
 
-18.1. git checkout -b  
+18.1. git checkout -b <branchname> #this command will help in switching to branch after getting created, if branch does not exists.
+
+  
