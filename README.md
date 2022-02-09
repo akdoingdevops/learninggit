@@ -73,3 +73,5 @@
 19.3.3 chnages in branch1
 
 20. git rebase #rebase all commints in any branch to another branch
+
+20.1. git rebase <barnchname>  #branch name that source branchname in which need to insert all the branches commit
