@@ -67,3 +67,7 @@
 19.3. testing auto merge
 
 19.3.1. chnage in master
+
+19.3.2 change in branch learnbranchingmerging 
+
+19.3.3 chnages in branch1
