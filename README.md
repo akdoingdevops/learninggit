@@ -58,4 +58,8 @@
 
 18.1. git checkout -b <branchname> #this command will help in switching to branch after getting created, if branch does not exists.
 
-  
+19. git merge #this command helps in merging from a branch to other
+
+19.1. git merge <destination branch> <source branch> #to merge first switch to the branch where we want to merge, means destination branch, this by default perform the fast forward merge
+
+19.2. git merge <destination branch> <source branch> --no-ff  #merging with --no-ff option disables the fastforward merge and display all the commits done in branch and complete tree in git decorated log
