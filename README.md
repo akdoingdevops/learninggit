@@ -84,6 +84,8 @@
 
 22.1. git stash apply  #this helps to merge the changes to local repo
 
+22.1.1. git stash apply stash@{1} #this helps to merge the changes to local repo with the saved changes/stash at 2nd number of the index 
+
 22.2. git stash drop  #this drops the stash reference from log
 
 22.3. git stash list  #this will list all the saved chnages refrence commits
@@ -91,3 +93,11 @@
 22.4. git stash -u  #this helps in saving/stashing the modified/tracked and untracked data
 
 22.5. git stash pop  #this rverts back the stashed data also drop the stash from log
+
+22.5.1. git stash pop stash@{2} #this reverts to your index of saved stash/chnages in working dir , also drop that stash
+
+22.6. git stash save "message to save the stash"  #this will help in managing multiple stash to pick or take the required change.
+
+22.7 git stash show stash@{2} #this will display the changes saved in that stash where @{2} is the index of the stash
+
+22.8 git stash clear  #this will clear all the stash 
