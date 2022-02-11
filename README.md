@@ -76,4 +76,7 @@
 
 20.1. git rebase <branchname>  #if we want to get branch commits to master, switch to master branch and do "git rebase <branchname>"
 
-21. git fetch 
+20.2 git pull --rebase origin master
+
+21. git fetch #this will pull the chnages from remote repo in staging area and not merge in working dir, to merge that you a type of rebasing as in section 20.2
+ 
