@@ -104,6 +104,8 @@
 
 23. git tag <tagname>  #this help in labelling the repo at particualr version
 
-23.1. git tag --list  #this will last all tags
+23.1 git tag -a <tagname> -m "message"  #tagiing with -a called annotated tag, when you show that tag that gives some information as compared to lightweight tag as in 23. .
 
-23.2. git show aktag  #it will show details at that commit of the tag
+23.2. git tag --list  #this will last all tags
+
+23.3. git show aktag  #it will show details at that commit of the tag
