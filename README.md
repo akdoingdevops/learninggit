@@ -72,4 +72,4 @@
 
 19.3.3 chnages in branch1
 
-20. git rebase
+20. git rebase #this helps to display  and manage all the commits to anyother branch or ideally in master branch
