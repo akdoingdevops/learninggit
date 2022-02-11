@@ -101,3 +101,9 @@
 22.7 git stash show stash@{2} #this will display the changes saved in that stash where @{2} is the index of the stash
 
 22.8 git stash clear  #this will clear all the stash 
+
+23. git tag <tagname>  #this help in labelling the repo at particualr version
+
+23.1. git tag --list  #this will last all tags
+
+23.2. git show aktag  #it will show details at that commit of the tag
