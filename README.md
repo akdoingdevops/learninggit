@@ -85,3 +85,9 @@
 22.1. git stash apply  #this helps to merge the changes to local repo
 
 22.2. git stash drop  #this drops the stash reference from log
+
+22.3. git stash list  #this will list all the saved chnages refrence commits
+
+22.4. git stash -u  #this helps in saving/stashing the modified/tracked and untracked data
+
+22.5. git stash pop  #this rverts back the stashed data also drop the stash from log
