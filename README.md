@@ -81,3 +81,7 @@
 21. git fetch #this will pull the chnages from remote repo in staging area and not merge in working dir, to merge that you a type of rebasing as in section 20.2
 
 22. git statsh #this helps to save your current work as a refrence commit and set/keep you at origin/master can clean working dir.
+
+22.1. git stash apply  #this helps to merge the changes to local repo
+
+22.2. git stash drop  #this drops the stash reference from log
