@@ -106,6 +106,10 @@
 
 23.1 git tag -a <tagname> -m "message"  #tagiing with -a called annotated tag, when you show that tag that gives some information as compared to lightweight tag as in 23. .
 
+23.1.1. git tag -a <tagname> -m <message> <commit id>   #this help in tagging an old commit in repo at a point
+
 23.2. git tag --list  #this will last all tags
 
 23.3. git show aktag  #it will show details at that commit of the tag
+
+23.4. git tag -a <tagname> -m <message> -f <commit id>  #this helps in updating the tag, lets say we tagged at wrong commit id, move the tag to right commit id.
