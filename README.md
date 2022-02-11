@@ -73,3 +73,7 @@
 19.3.3 chnages in branch1
 
 20. git rebase #this helps to display  and manage all the commits to anyother branch or ideally in master branch
+
+20.1. git rebase <branchname>  #if we want to get branch commits to master, switch to master branch and do "git rebase <branchname>"
+
+21. git fetch 
